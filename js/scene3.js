@@ -65,7 +65,67 @@ function scene3() {
   // Stage direction 1
 
   frame(function() {
+    egg.style.top = '65%'
+    egg.style.left = '12%'
+  })
 
+  frame(function() {
+    egg.style.top = '62%'
+    egg.style.left = '17%'
+    egg.style.transform = 'rotateZ(220deg)'
+  })
+
+  frame(function() {
+    egg.style.top = '59%'
+    egg.style.left = '22%'
+    egg.style.transform = 'rotateZ(140deg)'
+  })
+
+  frame(function() {
+    egg.style.top = '56%'
+    egg.style.left = '27%'
+    egg.style.transform = 'rotateZ(260deg)'
+  })
+
+  frame(function() {
+    egg.style.top = '53%'
+    egg.style.left = '32%'
+    egg.style.transform = 'rotateZ(180deg)'
+  })
+
+  frame(function() {
+    egg.style.top = '50%'
+    egg.style.left = '37%'
+    egg.style.transform = 'rotateZ(100deg)'
+  })
+
+  frame(function() {
+    egg.style.top = '53%'
+    egg.style.left = '42%'
+    egg.style.transform = 'rotateZ(180deg)'
+  })
+
+  frame(function() {
+    egg.style.top = '56%'
+    egg.style.left = '47%'
+    egg.style.transform = 'rotateZ(260deg)'
+  })
+
+  frame(function() {
+    egg.style.top = '59%'
+    egg.style.left = '52%'
+    egg.style.transform = 'rotateZ(140deg)'
+  })
+
+  frame(function() {
+    egg.style.top = '62%'
+    egg.style.left = '57%'
+    egg.style.transform = 'rotateZ(220deg)'
+  })
+
+  frame(function() {
+    egg.style.top = '65%'
+    egg.style.left = '62%'
   })
 
   // Stage direction 2
