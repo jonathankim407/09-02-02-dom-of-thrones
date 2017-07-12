@@ -34,7 +34,25 @@ function scene2() {
   leather.style.bottom = 0
   leather.style.border = 'none'
   // Character 2
+  joffContainer = document.createElement('div')
+  joffContainer.id = 'joff-container'
+  stage.append(joffContainer)
+  joffContainer.style.width = '8%'
+  joffContainer.style.position = 'absolute'
+  joffContainer.style.height = '31%'
+  joffContainer.style.top = '55%'
+  joffContainer.style.left = '55%'
 
+  joff = document.querySelector('#joffrey')
+  joffContainer.append(joff)
+  joff.style.width = '75%'
+  joff.style.position = 'absolute'
+  joff.style.left = '33%'
+
+  kingWardrobe = document.querySelector('#king')
+  joffContainer.append(kingWardrobe)
+  kingWardrobe.style.position = 'absolute'
+  kingWardrobe.style.bottom = 0
   // Setup Props
 
   // Prop 1
