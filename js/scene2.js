@@ -11,7 +11,28 @@ function scene2() {
   // Setup Cast
 
   // Character 1
+  nedContainer = document.createElement('div')
+  stage.append(nedContainer)
+  nedContainer.style.position = 'absolute'
+  nedContainer.style.width = '10%'
+  nedContainer.style.height = '37%'
+  nedContainer.style.top = '55%'
+  nedContainer.style.left = '25%'
+  nedContainer.style.border = 'none'
+  nedContainer.style.background = 'none'
 
+  ned = document.querySelector('#ned')
+  nedContainer.append(ned)
+  ned.style.width = '70%'
+  ned.style.position = 'absolute'
+  ned.style.top = 0
+  ned.style.border = 'none'
+
+  leather = document.querySelector('#leather-armour')
+  nedContainer.append(leather)
+  leather.style.position = 'absolute'
+  leather.style.bottom = 0
+  leather.style.border = 'none'
   // Character 2
 
   // Setup Props
