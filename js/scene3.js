@@ -30,7 +30,25 @@ function scene3() {
   blueDress.style.position = 'absolute'
   blueDress.style.bottom = 0
   // Character 2
+  drogoContainer = document.createElement('div')
+  drogoContainer.id = 'drogo-container'
+  stage.append(drogoContainer)
+  drogoContainer.style.width = '8%'
+  drogoContainer.style.position = 'absolute'
+  drogoContainer.style.height = '31%'
+  drogoContainer.style.top = '55%'
+  drogoContainer.style.left = '60%'
 
+  drogo = document.querySelector('#drogo')
+  drogoContainer.append(drogo)
+  drogo.style.width = '75%'
+  drogo.style.position = 'absolute'
+  drogo.style.left = '10%'
+
+  bulkyMan = document.querySelector('#bulky-man')
+  drogoContainer.append(bulkyMan)
+  bulkyMan.style.position = 'absolute'
+  bulkyMan.style.bottom = 0
   // Setup Props
 
   // Prop 1
