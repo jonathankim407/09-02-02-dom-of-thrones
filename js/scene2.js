@@ -70,7 +70,28 @@ function scene2() {
   // Stage direction 1
 
   frame(function() {
+    sword.style.top = '77%'
+    sword.style.left = '31%'
+  })
 
+  frame(function() {
+    sword.style.top = '74%'
+    sword.style.left = '36%'
+  })
+
+  frame(function() {
+    sword.style.top = '71%'
+    sword.style.left = '41%'
+  })
+
+  frame(function() {
+    sword.style.top = '68%'
+    sword.style.left = '47%'
+  })
+
+  frame(function() {
+    sword.style.top = '64%'
+    sword.style.left = '53%'
   })
 
   // Stage direction 2
