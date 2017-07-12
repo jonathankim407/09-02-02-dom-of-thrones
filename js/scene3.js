@@ -52,7 +52,12 @@ function scene3() {
   // Setup Props
 
   // Prop 1
-
+  egg = document.querySelector('#egg')
+  stage.append(egg)
+  egg.style.position = 'absolute'
+  egg.style.top = '65%'
+  egg.style.left = '12%'
+  egg.style.height = '18%'
   // Prop 2
 
   // Action!
